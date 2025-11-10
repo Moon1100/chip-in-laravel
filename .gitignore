@@ -1,0 +1,8 @@
+/vendor/
+/node_modules/
+/.env
+/.idea/
+/.vscode/
+/vendor-aliff/
+/*.log
+/.DS_Store

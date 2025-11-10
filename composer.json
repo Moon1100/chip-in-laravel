@@ -1,0 +1,20 @@
+{
+  "name": "aliff/chip-in",
+  "description": "Laravel package for CHIP Collect payment gateway integration",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Aliff\\ChipIn\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Aliff\\ChipIn\\ChipInServiceProvider"
+      ],
+      "aliases": {
+        "ChipIn": "Aliff\\ChipIn\\Facades\\ChipIn"
+      }
+    }
+  }
+}
