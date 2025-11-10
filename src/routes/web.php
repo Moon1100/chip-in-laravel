@@ -8,3 +8,4 @@ Route::prefix('chipin')->name('chipin.')->group(function () {
     Route::get('/failed', [ChipInController::class, 'failed'])->name('failed');
     Route::post('/callback', [ChipInController::class, 'callback'])->name('callback');
 });
+
