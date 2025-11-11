@@ -51,12 +51,6 @@ CHIPIN_BASE_URL=https://gate.chip-in.asia/api/v1/
 CHIP_IN_CALLBACKHANDLER=App\Http\Controllers\PaymentController
 ```
 
-**Example with real values:**
-```env
-CHIPIN_API_KEY=ka51Dz9OtodFZBECD_elquRH5Z5Ms1in7AzmRjEwBNsXWlKzL6aCPHUDxkE_9IZabEgUMkP06E8OyrhAazJODw==
-CHIPIN_BRAND_ID=8602ba36-506e-4efa-872e-b4826c9c0b7c
-CHIP_IN_CALLBACKHANDLER=App\Http\Controllers\PaymentController
-```
 
 ### Step 3: Create a Payment Handler Controller
 
